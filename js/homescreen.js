@@ -33,6 +33,11 @@ function getAppName(item) {
 }
 function launchedApp(item) {
   alert("Launched: "+getAppName(item));
+  /*
+  
+  Do what you want when an application is clicked
+
+  */
 }
 
 function folder(item) {
