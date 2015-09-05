@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>My Projects</title>
+        <!--<meta name="viewport" content="device-width"/>-->
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/iphone_setup.css"/>
+        <link rel="stylesheet" href="css/icons.css"/>
+        <link rel="stylesheet" href="css/lockscreen.css"/>
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="js/lockscreen.js"></script>
+        <script src="js/homescreen.js"></script>
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+            <div class="iphone">
+                <div class="power" onclick="power()"></div>
+                <div class="lock"></div>
+                <div class="volume up"></div>
+                <div class="volume down"></div>
+                <div class="camera"></div>
+                <div class="speaker"></div>
+                <div class="screen" style="background-image: url('http://bolencki13.com/projects/images/background.png')">
+                    <div class="statusbar">
+                        <div class="signal">Verizon</div>
+                        <div class="time">9:14</div>
+                        <div class="battery">100%</div>
+                    </div>
+
+                    <div class="appFrame">
+                        <div class="appIcon" style="background-image: url('http://bolencki13.com/projects/images/whirlibird.png')" id="WhirliBird" name="this is a test" onclick="app(this)"></div>
+                        <div class="appText">WhirliBird</div>
+                    </div>
+                    <div class="appFrame">
+                        <div class="appIcon" style="background-image: url('http://bolencki13.com/projects/images/mapout.jpeg')" id="MapOut" onclick="app(this)"></div>
+                        <div class="appText">MapOut</div>
+                    </div>
+
+
+                    <div class="folderFrame" id="Productivity">
+                        <div class="appText">Productivity</div>
+                        <div class="folderIcon" id="Productivity" onclick="folder(this)">
+                            <div class="folderAppFrame">
+                                <div class="folderAppIcon" style="background-image: url('http://bolencki13.com/projects/images/mapout.jpeg')" id="MapOut"></div>
+                            </div>
+                            <div class="folderAppFrame">
+                                <div class="folderAppIcon" style="background-image: url('http://bolencki13.com/projects/images/whirlibird.png')" id="WhirliBird"></div>
+                            </div>
+                            <div class="folderAppFrame">
+                                <div class="folderAppIcon" style="background-image: url('http://bolencki13.com/projects/images/Cydia.png')" id="Cydia"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dock">
+                        <div class="appFrame">
+                            <div class="appIcon" style="background-image: url('http://bolencki13.com/projects/images/Cydia.png')" id="Cydia" onclick="app(this)"></div>
+                            <div class="appText">Cydia</div>
+                        </div>
+                        <div class="folderFrame" id="Games">
+                            <div class="folderText">Games</div>
+                            <div class="folderIcon" id="Games" onclick="folder(this)">
+                                <div class="folderAppFrame">
+                                    <div class="folderAppIcon" style="background-image: url('http://bolencki13.com/projects/images/whirlibird.png')" id="WhirliBird"></div>
+                                </div>
+                                <div class="folderAppFrame">
+                                    <div class="folderAppIcon" style="background-image: url('http://bolencki13.com/projects/images/mapout.jpeg')" id="MapOut"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="button" onclick="closeFolder(this)">
+                    <div class="square"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

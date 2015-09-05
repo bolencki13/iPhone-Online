@@ -1,0 +1,151 @@
+
+.appFrame {
+  margin-top: 0%;
+  position: relative;
+  width: 25%;
+  padding-top: 25%;
+  float: left;
+  opacity: 1.0;
+}
+.appText {
+  color: white;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  font-size: 70%;
+  opacity: inherit;
+}
+.appIcon {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-color: #AAAAAA;
+  padding-top:70%;
+  width: 70%;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  font-size: 70%;
+  position: absolute;
+  border-radius: 20%;
+  opacity: 1.0;
+}
+.appIcon:active {
+  opacity: 0.75;
+}
+.appDetails {
+  opacity: 0.0;
+  width: 0px;
+  height: 0px;
+}
+
+.folderFrame {
+  position: relative;
+  width: 25%;
+  padding-top: 25%;
+  float: left;
+  opacity: 1.0;
+}
+.folderText {
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  font-size: 70%;
+  opacity: inherit;
+}
+.folderIcon {
+  background-color: rgba(189, 189, 189, 0.75);
+  width: 70%;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  font-size: 70%;
+  position: absolute;
+  border-radius: 20%;
+}
+.folderIcon:active {
+  background-color: #AAAAAA;
+}
+
+.folderAppFrame {
+  position: relative;
+  width: 33%;
+  padding-top: 33%;
+  float: left;
+  opacity: 1.0;
+}
+.folderAppIcon {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-color: #AAAAAA;
+  padding-top: 60%;
+  width: 60%;
+  top: 50%;
+  left: 50%;
+  padding-left: 10px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 20%;
+  opacity: 1.0;
+}
+
+.fAppFrame {
+  position: relative;
+  width: 33%;
+  padding-top: 35%;
+  float: left;
+  opacity: 1.0;
+}
+.fAppText {
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  opacity: inherit;
+}
+
+.folderViewFrame {
+  padding-top: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 1.0;
+}
+.folderViewText {
+  color: white;
+  width: 100%;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  position: absolute;
+  text-align: center;
+  font-size: 225%;
+}
+.folderView {
+  background-color: rgba(189, 189, 189, 0.75);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 80%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  font-size: 70%;
+  position: absolute;
+  border-radius: 10%;
+}
+
+.dock {
+  background-color: rgba(189, 189, 189, 0.75);
+  width: 100%;
+  height: 15%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
