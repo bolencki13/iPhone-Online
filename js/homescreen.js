@@ -32,9 +32,14 @@ function getAppName(item) {
   return item.id;
 }
 function launchedApp(item) {
-  alert("Launched: "+getAppName(item));
+
+  if (item.id == "GitHub") {
+    window.open("https://github.com/bolencki13/iPhone-Online/");
+  } else {
+    alert("Launched: "+getAppName(item));
+  }
   /*
-  
+
   Do what you want when an application is clicked
 
   */
